@@ -81,24 +81,27 @@ python xss_app.py
 ```
 XSS-Payload-Generator/
 ├── xss_app.py                 # 主入口
-├── requirements.txt           # 第三方依赖
 ├── xss_payload_generator.py   # Payload 数据库 + 绕过/变异/验证逻辑
 ├── icons.py                   # SVG 图标定义
 ├── custom_checkbox.py         # 自定义复选框控件
 ├── themes.py                  # 浅色/暗夜主题配色与全局样式
 ├── knowledge_content.py       # 知识库 HTML 内容生成
+├── requirements.txt           # 第三方依赖
+├── LICENSE                    # MIT 许可证
+├── .gitignore                 # Git 忽略规则
 ├── core/
 │   └── payload_manager.py     # Payload 加载/筛选/管理核心逻辑
-└── gui/
-    ├── main_window.py         # 主窗口 + main() 启动函数
-    ├── generator_tab.py       # Payload 生成器标签页
-    ├── filter_tab.py          # Payload 筛选标签页
-    ├── context_tab.py         # 上下文检测标签页
-    ├── mutator_tab.py         # Payload 变异器标签页
-    ├── preview_tab.py         # 效果预览标签页
-    ├── custom_tab.py          # 自定义 Payload 标签页
-    ├── history_tab.py         # 历史记录标签页
-    └── knowledge_tab.py       # XSS 知识库标签页
+├── gui/
+│   ├── main_window.py         # 主窗口 + main() 启动函数
+│   ├── generator_tab.py       # Payload 生成器标签页
+│   ├── filter_tab.py          # Payload 筛选标签页
+│   ├── context_tab.py         # 上下文检测标签页
+│   ├── mutator_tab.py         # Payload 变异器标签页
+│   ├── preview_tab.py         # 效果预览标签页
+│   ├── custom_tab.py          # 自定义 Payload 标签页
+│   ├── history_tab.py         # 历史记录标签页
+│   └── knowledge_tab.py       # XSS 知识库标签页
+└── screenshots/               # 应用截图
 ```
 
 ## 依赖说明
