@@ -43,13 +43,13 @@
 |:---:|:---:|
 | ![生成器](screenshots/generator.png) | ![筛选](screenshots/filter.png) |
 
-| 上下文适配 | Payload 变异器 |
+| Payload 变异器 | 效果预览 |
 |:---:|:---:|
-| ![上下文](screenshots/context.png) | ![变异器](screenshots/mutator.png) |
+| ![变异器](screenshots/mutator.png) | ![预览](screenshots/preview.png) |
 
-| 效果预览 | XSS 知识库 |
+| XSS 知识库 | 自定义 Payload |
 |:---:|:---:|
-| ![预览](screenshots/preview.png) | ![知识库](screenshots/knowledge.png) |
+| ![知识库](screenshots/knowledge.png) | ![自定义](screenshots/custom.png) |
 
 </details>
 
